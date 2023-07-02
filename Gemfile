@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gemspec
 
 group :test do
-  gem 'coveralls', require: false
+  gem 'coveralls', '~> 0.8.23', require: false
 end
 
 local_gemfile = 'Gemfile.local'
